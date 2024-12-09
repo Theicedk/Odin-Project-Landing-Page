@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%; 
+  }
+  
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    gap: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4B4B4B;
+}
+
+h1, h2, h3 {
+    color: #6CCF8F; /* Verde principal */
+    font-weight: 900;
+}
+
+header{
+    background-color: #FBEAE1;;
+}
+
+a {
+    color: #A9A1E1; 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6CCF8F;
+}
+
+button {
+    background-color: #6CCF8F; /* Fondo verde */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #A9A1E1; /* Cambia a morado */
+}
+
+.imagen-mariposa{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.logo-escaralia{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+section{
+    background-color: whitesmoke;
+    border: 2px solid rgb(179, 179, 179);
+}
+
+.box-content{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 4px solid lightgreen;
+    border-radius: 10px;
+}
+
+.parte-encabezado{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid rgb(179, 179, 179);
+}
+
+.title-page{
+    display: flex;
+
+}
+
+.titulo-opciones{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 70%;
+    
+}
+
+.options-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 2rem 0rem;
+}
+
+.elements-toflex{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.mariposa{
+    height: 250px;
+}
+
+footer{
+    background-color: #FBEAE1;
+
+}
+
+.footer-content{
+    text-align: center;
+}
+
+
+.box-content-control{
+    display: flex;
+    gap: 3rem;
+    margin: 1rem;
+}
+
+.box-text{
+    text-align: center;
+    width: 250px;
+}
+
+.big-text{
+    display: flex;
+    justify-content: center;
+}
+
+.parte2{
+    font-size: 40px;
+    width: 50%;
+    background-color: #F7C8D6;
+    color: #4B4B4B;
+    font-style: italic;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    
+
+
+}
+
+.parte3{
+    height: 200px;
+    width: 650px;
+    background-color: #FBEAE1;
+    padding: 48px;
+    border-radius: 10px;
+
+}
